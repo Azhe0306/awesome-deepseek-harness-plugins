@@ -8,7 +8,7 @@ The **DSH 1024Store** community catalog for [DeepSeek Harness](https://github.co
 
 **This project is more than an awesome list.** It also ships a hosted plugin marketplace, a plugin that puts that marketplace inside `dsh` itself, and a free public query API — that application code lives in the sibling repository [dsh-1024store](https://github.com/imsai-sh/dsh-1024store); this repository is the catalog itself: a statically validated PR submission pipeline and the generated directory READMEs, with an automated collection service feeding the data. Everything is MIT licensed, so you can fork it and run your own marketplace.
 
-[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=dd191ed2038d)](https://deepseek1024.com/)
+[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=5cdc8ec13029)](https://deepseek1024.com/)
 
 [Live website](https://deepseek1024.com/) · [API reference](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [中文目录](../README.md) · [Submit a plugin](../CONTRIBUTING.md) · [Site & CLI source](https://github.com/imsai-sh/dsh-1024store)
 
@@ -41,11 +41,11 @@ Monorepo subpackage plugins publish and install their own npm packages, and each
 
 Groups are collapsed by default. GitHub renders only so much of a single file, so the largest categories list a subset — each summary says how many — while smaller ones are complete. Search the [live website](https://deepseek1024.com/) for the full catalog.
 
-- [UI Enhancements](#ui) (2619)
+- [UI Enhancements](#ui) (2618)
 - [Themes & Appearance](#theme) (496)
-- [Sessions & Messages](#session) (860)
+- [Sessions & Messages](#session) (859)
 - [Memory](#memory) (433)
-- [Tools & Capabilities](#tools) (3954)
+- [Tools & Capabilities](#tools) (3956)
 - [Skills](#skill) (1042)
 - [Workflow & Automation](#workflow) (768)
 - [Notifications & Integrations](#notify) (496)
@@ -56,7 +56,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="ui"></a>
 
 <details>
-<summary><strong>UI Enhancements</strong> · showing 234 of 2619</summary>
+<summary><strong>UI Enhancements</strong> · showing 234 of 2618</summary>
 
 - [01_content](https://github.com/Aisland-SJL/dsh-worktable/tree/HEAD/01_content) — Adds a sidebar app drawer and dockable split workspace to the harness, creating a live control room for projects.
 - [a2ui-render-in-dsh](https://github.com/baihui-ai/a2ui-render-in-dsh) — Interactive A2UI cards for the dsh web UI — quizzes, forms, charts and diagrams rendered inline in the conversation, with a full action loop back to the agent.
@@ -292,7 +292,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — Select text → annotate → send with your message; replies map back to each annotation.
 - [dsh-annotation](https://github.com/ruisenbai/dsh-inline-comments) — Inline, batchable comments for DeepSeek Harness assistant replies
 - [dsh-annotation-patched](https://github.com/DDDFXYqiming/dsh-annotation-patched) — DSH Web annotation/quote plugin (fork enhanced)
-- *GitHub only renders so much of one file, so 2385 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 2384 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -551,7 +551,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="session"></a>
 
 <details>
-<summary><strong>Sessions &amp; Messages</strong> · showing 232 of 860</summary>
+<summary><strong>Sessions &amp; Messages</strong> · showing 233 of 859</summary>
 
 - [agent-board](https://github.com/meisam2236/agent-board) — Track and manage AI agents with a durable per-workspace board for the DeepSeek Harness web profile.
 - [agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — Switch the current session's agent preset (mode) after the model answers and keep chatting. DeepSeek Harness 插件：模型回答后切换模式，继续当前对话。
@@ -713,7 +713,6 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-chat-sync](https://github.com/nan1010082085/dsh-chat-sync) — DSH plugin: browse & live-sync local Claude Code / Codex CLI / Cursor Agent conversations inside the dsh web GUI
 - [dsh-chatgpt-bridge](https://github.com/jiezeng2004-design/dsh-chatgpt-bridge) — MCP bridge that lets ChatGPT create, view, continue, and control DeepSeek Harness (DSH) agent sessions.
 - [dsh-checkpoint](https://github.com/dpskh/dsh-checkpoint) — Mark an exploration start in the session; pairs with rewind to fold the exploration out of context.
-- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — Claude Code /rewind for DeepSeek Harness — git-first workspace snapshots before every mutation, turn-boundary session forks, one-shot /rewind restore. A dsh-plugin capability seam.
 - [dsh-checkpoint-rewind](https://github.com/skkaczsh/dsh-checkpoint-rewind) — DeepSeek Harness checkpoint rollback with linked Git worktrees, session replay, and a graphical branch tree.
 - [dsh-checkpoints](https://github.com/ANOKO1122/dsh-checkpoints) — DSH conversation checkpoints: locate / rewind / edit user instructions with file snapshots and per-file undo. DSH conversation checkpoint plugin
 - [dsh-chinese-mode](https://github.com/dawnliming/dsh-chinese-mode) — DSH global Chinese-mode toggle: a 中 switch in the input box; when on, a Simplified-Chinese requirement is injected into every session system prompt.
@@ -785,7 +784,9 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-copy-session-id](https://github.com/Hanihahaha/dsh-copy-session-id) — Copies the current session ID to the clipboard for quick sharing and reference.
 - [dsh-cost-tracker](https://github.com/lyfZhixing/dsh-cost-tracker) — Records daily LLM call costs per session, model, and day for the web interface.
 - [dsh-cot-summerization](https://github.com/MeowLynxSea/dsh-cot-summerization) — Likely summarizes chain-of-thought in sessions, based on the package name.
-- *GitHub only renders so much of one file, so 628 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- [dsh-credential-handoff](https://github.com/xiaohj233/dsh-credential-handoff) — Conversation-local credential handoff for DSH that writes through the credential service without exposing the secret.
+- [dsh-cross-session](https://github.com/Wha1eChai/dsh-cross-session) — Same-runtime cross-Session discovery and communication for DeepSeek Harness
+- *GitHub only renders so much of one file, so 626 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -1026,7 +1027,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="tools"></a>
 
 <details>
-<summary><strong>Tools &amp; Capabilities</strong> · showing 231 of 3954</summary>
+<summary><strong>Tools &amp; Capabilities</strong> · showing 231 of 3956</summary>
 
 - [@zhaoolee/dsh-notes](https://github.com/zhaoolee/notes) — Export DSH conversations as Smartisan Notes-style PNGs, or create and update Markdown notes in a configured account-scoped workspace.
 - [88API Image Studio](https://github.com/blackdm666/dsh-plugin-88api-image) — A conversational image studio for DSH with four Image2 and Nano Banana models, text-to-image, multi-reference editing, 2K/4K output, sequential batches, persistent defaults, and masked Key setup.
@@ -1259,7 +1260,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-ac-save](https://github.com/uckkk/dsh-ac-save) — Assists with air conditioning energy-saving strategies.
 - [dsh-ac-size](https://github.com/uckkk/dsh-ac-size) — Guides selection of air conditioner size based on area.
 - [dsh-ac-trouble](https://github.com/uckkk/dsh-ac-trouble) — Helps troubleshoot air conditioning faults.
-- *GitHub only renders so much of one file, so 3723 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 3725 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 

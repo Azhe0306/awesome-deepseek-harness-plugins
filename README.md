@@ -8,7 +8,7 @@
 
 **但这个项目不只是一份 awesome list。** 它还包括一个在线插件市场、一个把市场装进 `dsh` 本体的插件，以及一套免费的公开查询 API——这些应用代码开源在姊妹仓库 [dsh-1024store](https://github.com/imsai-sh/dsh-1024store)；本仓库专注目录本身：经静态校验的 PR 收录流水线与自动生成的目录 README，目录数据另有自动收集服务持续喂入。全部代码 MIT 协议，fork 之后就能部署成你自己的插件市场。
 
-[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=dd191ed2038d)](https://deepseek1024.com/)
+[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=5cdc8ec13029)](https://deepseek1024.com/)
 
 [在线网站](https://deepseek1024.com/) · [API 文档](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md) · [网站与 CLI 源码](https://github.com/imsai-sh/dsh-1024store)
 
@@ -136,11 +136,11 @@ docs/               目录数据模型文档
 
 分组默认折叠，点开即可展开。GitHub 对单个文件的渲染长度有上限，条目较多的分类只列出其中一部分（分类标题会写明列出了多少），完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。
 
-- [UI 增强](#ui) (2619)
+- [UI 增强](#ui) (2618)
 - [主题与外观](#theme) (496)
-- [会话与消息](#session) (860)
+- [会话与消息](#session) (859)
 - [记忆](#memory) (433)
-- [工具与能力](#tools) (3954)
+- [工具与能力](#tools) (3956)
 - [技能包](#skill) (1042)
 - [工作流与自动化](#workflow) (768)
 - [通知与集成](#notify) (496)
@@ -151,7 +151,7 @@ docs/               目录数据模型文档
 <a id="ui"></a>
 
 <details>
-<summary><strong>UI 增强</strong> · 显示 237 / 共 2619 个</summary>
+<summary><strong>UI 增强</strong> · 显示 237 / 共 2618 个</summary>
 
 - [01_content](https://github.com/Aisland-SJL/dsh-worktable/tree/HEAD/01_content) — 为控制台增加侧边栏应用抽屉和可停靠拆分工作区，形成项目实时控制台。
 - [a2ui-render-in-dsh](https://github.com/baihui-ai/a2ui-render-in-dsh) — 在聊天中内联渲染交互式卡片，支持测验、表单、图表等并回传操作。
@@ -390,7 +390,7 @@ docs/               目录数据模型文档
 - [dsh-annotation-plugin](https://github.com/boboozeng/dsh-annotation-plugin) — 为聊天消息添加注释，便于标记和整理。
 - [dsh-answer-pet](https://github.com/Nanki-nn/dsh-answer-pet) — 蓝鲸桌面宠物：按会话实时展示回答进度、模型动作与工具调用轨迹、token、输出速率与耗时，并支持多会话状态卡片展开和收起。
 - [dsh-answer-sound](https://github.com/zl99103/dsh-answer-sound) — 为 DeepSeek Harness 网页界面添加可配置的回答音效。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 2382 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 2381 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
@@ -659,7 +659,7 @@ docs/               目录数据模型文档
 <a id="session"></a>
 
 <details>
-<summary><strong>会话与消息</strong> · 显示 250 / 共 860 个</summary>
+<summary><strong>会话与消息</strong> · 显示 250 / 共 859 个</summary>
 
 - [agent-board](https://github.com/meisam2236/agent-board) — 使用持久化的工作区看板跟踪和管理 DeepSeek Harness 中的 AI 代理。
 - [agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — 在模型回答后切换当前会话的代理预设，以不同模式继续对话。
@@ -821,7 +821,6 @@ docs/               目录数据模型文档
 - [dsh-chat-sync](https://github.com/nan1010082085/dsh-chat-sync) — 在网页界面中浏览并实时同步本地Claude Code和Codex CLI对话。
 - [dsh-chatgpt-bridge](https://github.com/jiezeng2004-design/dsh-chatgpt-bridge) — 作为 MCP 桥接，让 ChatGPT 能创建、查看、继续和控制 DeepSeek Harness 会话。
 - [dsh-checkpoint](https://github.com/dpskh/dsh-checkpoint) — 在会话中标记探索起点，便于后续折叠上下文。
-- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — 提供基于Git的工作区快照、会话分支和一步回滚恢复。
 - [dsh-checkpoint-rewind](https://github.com/skkaczsh/dsh-checkpoint-rewind) — 支持通过关联 Git worktree 回滚检查点，并可重放会话、查看分支树形图。
 - [dsh-checkpoints](https://github.com/ANOKO1122/dsh-checkpoints) — 支持设置、回退和编辑对话检查点，附带文件快照和单文件撤销功能。
 - [dsh-chinese-mode](https://github.com/dawnliming/dsh-chinese-mode) — 在输入框添加中文模式开关，开启时向每个会话系统提示注入简体中文要求。
@@ -911,7 +910,8 @@ docs/               目录数据模型文档
 - [dsh-delete-message](https://github.com/viplocco/dsh-delete-message) — DeepSeek Harness 消息级删除插件，用于避免用户误发或错误的消息污染模型上下文。
 - [dsh-delete-session](https://github.com/SMWHff/dsh-delete-session) — 在会话溢出菜单中提供删除入口，清理会话及其日志与工作区记录。
 - [dsh-desktop-profile-host](https://github.com/vibeinging/dsh-desktop/tree/HEAD/packages/dsh-desktop-profile-host) — 管理桌面应用会话的用户档案和宿主环境。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 610 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- [dsh-diary](https://github.com/zhm20001/dsh-diary) — dsh 日记插件：纸感信纸风 web 页写日记，原文先落盘、AI 评注后生成 · Diary plugin for dsh (DeepSeek Harness)
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 609 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
@@ -1176,7 +1176,7 @@ docs/               目录数据模型文档
 <a id="tools"></a>
 
 <details>
-<summary><strong>工具与能力</strong> · 显示 251 / 共 3954 个</summary>
+<summary><strong>工具与能力</strong> · 显示 251 / 共 3956 个</summary>
 
 - [@zhaoolee/dsh-notes](https://github.com/zhaoolee/notes) — 将 DSH 对话导出为锤子便签风格 PNG，或在配置的账号工作区中新建和更新 Markdown 便签。
 - [88API Image Studio](https://github.com/blackdm666/dsh-plugin-88api-image) — 统一接入 Image2 与 Nano Banana 四款模型，覆盖文生图、多参考图编辑、2K/4K 输出、顺序批量任务、默认模型持久化和脱敏 Key 配置。
@@ -1429,7 +1429,7 @@ docs/               目录数据模型文档
 - [dsh-ag-ui](https://github.com/CaiZongyuan/dsh-ag-ui) — 实现 AG-UI 协议网关，支持标准化的代理交互。
 - [dsh-age-calc](https://github.com/uckkk/dsh-age-calc) — 年龄计算
 - [DSH-agent-bridge](https://github.com/zmh2000829/DSH-agent-bridge) — 通过 ACP 将 Grok Build 集成到 Harness 网页界面中。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 3703 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 3705 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
