@@ -8,7 +8,7 @@ The **DSH 1024Store** community catalog for [DeepSeek Harness](https://github.co
 
 **This project is more than an awesome list.** It also ships a hosted plugin marketplace, a plugin that puts that marketplace inside `dsh` itself, and a free public query API — that application code lives in the sibling repository [dsh-1024store](https://github.com/imsai-sh/dsh-1024store); this repository is the catalog itself: a statically validated PR submission pipeline and the generated directory READMEs, with an automated collection service feeding the data. Everything is MIT licensed, so you can fork it and run your own marketplace.
 
-[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=e02ce1f048fe)](https://deepseek1024.com/)
+[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=145dad114dd8)](https://deepseek1024.com/)
 
 [Live website](https://deepseek1024.com/) · [API reference](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [中文目录](../README.md) · [Submit a plugin](../CONTRIBUTING.md) · [Site & CLI source](https://github.com/imsai-sh/dsh-1024store)
 
@@ -41,22 +41,22 @@ Monorepo subpackage plugins publish and install their own npm packages, and each
 
 Groups are collapsed by default. GitHub renders only so much of a single file, so the largest categories list a subset — each summary says how many — while smaller ones are complete. Search the [live website](https://deepseek1024.com/) for the full catalog.
 
-- [UI Enhancements](#ui) (2619)
+- [UI Enhancements](#ui) (2620)
 - [Themes & Appearance](#theme) (496)
-- [Sessions & Messages](#session) (861)
+- [Sessions & Messages](#session) (860)
 - [Memory](#memory) (433)
 - [Tools & Capabilities](#tools) (3956)
 - [Skills](#skill) (1042)
-- [Workflow & Automation](#workflow) (770)
+- [Workflow & Automation](#workflow) (769)
 - [Notifications & Integrations](#notify) (496)
 - [Models & Providers](#model) (813)
-- [Development & Runtime](#dev) (1614)
+- [Development & Runtime](#dev) (1615)
 - [Just for Fun](#fun) (559)
 
 <a id="ui"></a>
 
 <details>
-<summary><strong>UI Enhancements</strong> · showing 234 of 2619</summary>
+<summary><strong>UI Enhancements</strong> · showing 234 of 2620</summary>
 
 - [01_content](https://github.com/Aisland-SJL/dsh-worktable/tree/HEAD/01_content) — Adds a sidebar app drawer and dockable split workspace to the harness, creating a live control room for projects.
 - [a2ui-render-in-dsh](https://github.com/baihui-ai/a2ui-render-in-dsh) — Interactive A2UI cards for the dsh web UI — quizzes, forms, charts and diagrams rendered inline in the conversation, with a full action loop back to the agent.
@@ -292,7 +292,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — Select text → annotate → send with your message; replies map back to each annotation.
 - [dsh-annotation](https://github.com/ruisenbai/dsh-inline-comments) — Inline, batchable comments for DeepSeek Harness assistant replies
 - [dsh-annotation-patched](https://github.com/DDDFXYqiming/dsh-annotation-patched) — DSH Web annotation/quote plugin (fork enhanced)
-- *GitHub only renders so much of one file, so 2385 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 2386 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -551,7 +551,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="session"></a>
 
 <details>
-<summary><strong>Sessions &amp; Messages</strong> · showing 231 of 861</summary>
+<summary><strong>Sessions &amp; Messages</strong> · showing 232 of 860</summary>
 
 - [agent-board](https://github.com/meisam2236/agent-board) — Track and manage AI agents with a durable per-workspace board for the DeepSeek Harness web profile.
 - [agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — Switch the current session's agent preset (mode) after the model answers and keep chatting. DeepSeek Harness 插件：模型回答后切换模式，继续当前对话。
@@ -719,7 +719,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-chinese-mode](https://github.com/dawnliming/dsh-chinese-mode) — DSH global Chinese-mode toggle: a 中 switch in the input box; when on, a Simplified-Chinese requirement is injected into every session system prompt.
 - [dsh-cipher](https://github.com/NoxTyrannus/dsh-cipher) — Integrates cipher's persistent thinking, three-middleware, and four-type memory into DSH via UNNI/LOOP session modes.
 - [dsh-cite](https://github.com/wanghehe123/dsh-sessions) — Provides cross-session referencing for the DSH ecosystem, allowing interactions between different chat sessions.
-- [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — Four-source migration wizard for DeepSeek Harness: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard + resumable sessions, approval-gated, idempotent).
+- [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — Four-source migration wizard: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard with approval gate and idempotent move.json, resumable sessions).
 - [dsh-clear-tool-results](https://github.com/stultuss/dsh-clear-tool-results) — Clears tool results from the model context at each turn end, with a chat command toggle.
 - [dsh-cli-workspaces](https://github.com/qingkong143/dsh-cli-workspaces) — Provides a command-line task mode with workspace switching and management subcommands.
 - [dsh-client-ui-recent-sessions-switcher](https://github.com/blake-r/dsh-plugins/tree/HEAD/packages/dsh-client-ui-recent-sessions-switcher) — Provides a client-side UI to quickly switch between recent sessions in DeepSeek Harness.
@@ -747,7 +747,6 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-compaction-tune](https://github.com/kuanfu0430/dsh-compaction-tune) — Composer control for DeepSeek Harness auto-compaction thresholds
 - [dsh-compactor](https://github.com/lionwill/dsh-compactor) — Compresses and condenses conversation context to manage session length and tokens.
 - [dsh-composer-history](https://github.com/baisama-cloud/dsh-composer-history) — Command history for the DeepSeek Harness (DSH) web GUI composer — press ↑ / ↓ to cycle through your previously sent instructions, then restore the draft you were editing when you reach the end of the history.
-- [dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) — Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall - and sliding-context awareness (compaction summaries in recall/search, compaction notice with one-click /compact fill).
 - [dsh-config-export](https://github.com/sunchendd/dsh-config-export) — Provides sidebar export/import for DSH configuration, including settings, profiles, SSH, presets, and skins, with sensitive data masking and safe restore snapshots.
 - [dsh-context-budget](https://github.com/d3vmeh/dsh-context-guard) — DeepSeek Harness plugin: keep a local model's context at a size your GPU handles well (measured prefill speed, hard ceiling, early compaction)
 - [dsh-context-compactor](https://github.com/kusesad-1122/dsh-context-compactor) — Compresses conversation context with detailed summaries, reducing tokens while preserving key information.
@@ -784,7 +783,9 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-conversation-tree](https://github.com/Unintendedz/dsh-conversation-tree) — ChatGPT-style immutable reply branches, inline branch switching, and whole-tree browsing for DeepSeek Harness.
 - [dsh-convo-cost](https://github.com/ljr282341583/dsh-convo-cost) — Tracks and displays conversation costs for budget monitoring.
 - [dsh-copy-session-id](https://github.com/Hanihahaha/dsh-copy-session-id) — Copies the current session ID to the clipboard for quick sharing and reference.
-- *GitHub only renders so much of one file, so 630 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- [dsh-cost-tracker](https://github.com/lyfZhixing/dsh-cost-tracker) — Records daily LLM call costs per session, model, and day for the web interface.
+- [dsh-cot-summerization](https://github.com/MeowLynxSea/dsh-cot-summerization) — Likely summarizes chain-of-thought in sessions, based on the package name.
+- *GitHub only renders so much of one file, so 628 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -1538,7 +1539,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="workflow"></a>
 
 <details>
-<summary><strong>Workflow &amp; Automation</strong> · showing 233 of 770</summary>
+<summary><strong>Workflow &amp; Automation</strong> · showing 233 of 769</summary>
 
 - [adaptive-update](https://github.com/niushuanan/dsh-adaptive-update/tree/HEAD/payload/adaptive-update/product/plugins/adaptive-update) — Checks upstream updates periodically, performs compatibility work via a scoped agent, and switches atomically with rollback.
 - [agent](https://github.com/orziz/odai/tree/HEAD/dsh/agent) — Governs AI agent tasks by aligning goals, planning, orchestrating, and verifying delivery while managing risks.
@@ -1680,7 +1681,6 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-auto-mode](https://github.com/Nuo-cl/dsh-auto-mode) — DSH plugin: auto mode that routes permission-gated tool calls through an LLM review before approving, blocking, or asking for confirmation.
 - [dsh-auto-preset-router](https://github.com/yhfgyyf/dsh-auto-preset-router) — Routes the first DSH prompt to Standard, PTC, Minimal, or Cordis with DeepSeek V4 Flash.
 - [dsh-auto-review](https://github.com/jhckevin/dsh-auto-review) — Codex-style Auto Review inspired plugin for DeepSeek Harness, with native bridge and Linux sandbox integration
-- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided).
 - [dsh-auto-review](https://github.com/Xinlong-Wu/dsh-auto-review) — adds an auto-review permission preset to DeepSeek Harness. Same Codex auto review
 - [dsh-auto-scheduler](https://github.com/Cheng-xiu/dsh-auto-scheduler) — DSH timed auto-work plugin: start/stop agent sessions on a user-defined schedule with Beijing valley/peak presets, silent & default modes (dsh-plugin for DeepSeek Harness)
 - [dsh-autolab](https://github.com/Brain2nd/DSH-AutoLab/tree/HEAD/dsh-autolab) — Controls autonomous research workflows with local session communication for efficiency.
@@ -1773,7 +1773,8 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-custom-subagents](https://github.com/ktdhhc/dsh-custom-subagents) — Controls and manages custom subagents within DeepSeek Harness, enabling agent orchestration.
 - [dsh-cybernetics](https://github.com/boomzikazita/dsh-cybernetics) — DeepSeek Harness (dsh) Cordis plugin: observer/feedforward/feedback control loop, stability valve, controllability check
 - [dsh-dag](https://github.com/HEO-Club/DSH-DAG/tree/HEAD/packages/dsh-dag) — Implements a directed acyclic graph (DAG) structure for organizing and automating multi-step task pipelines within DeepSeek Harness.
-- *GitHub only renders so much of one file, so 537 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- [dsh-daily-digest](https://github.com/zhaoxuejie/dsh-daily-digest) — Automatically records daily tasks, sessions, and errors to generate Markdown daily and weekly reports with a floating summary card.
+- *GitHub only renders so much of one file, so 536 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -2270,7 +2271,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="dev"></a>
 
 <details>
-<summary><strong>Development &amp; Runtime</strong> · showing 230 of 1614</summary>
+<summary><strong>Development &amp; Runtime</strong> · showing 230 of 1615</summary>
 
 - [_template](https://github.com/messiahyl/dsh-plugins/tree/HEAD/packages/_template) — Provides a monorepo template for developing DSH plugins, with installation sources and third-party directory.
 - [_template](https://github.com/satan9394/dsh-skills-bundle/tree/HEAD/plugins/_template) — Provides a template for creating new dsh plugins.
@@ -2487,6 +2488,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-auto-archive](https://github.com/TZHR-invest/dsh-plugins/tree/HEAD/packages/dsh-auto-archive) — Provides a gateway service for DeepSeek Harness plugins, likely handling routing or access control for plugin communication.
 - [dsh-auto-model](https://github.com/AL-spiritphoenix/dsh-auto-model) — Automates model setup for DeepSeek Harness, streamlining configuration for developers.
 - [dsh-auto-review](https://github.com/AtropinolTT/dsh-auto-review) — DSH Auto Mode — native security review plugin for DeepSeek Harness: pre-execution rule interception + delivery-time independent subagent review. Built for long-running agents.
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — Second-model auto-review on the approval answerer chain: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default.
 - [dsh-auto-update](https://github.com/a1113622001/dsh-auto-update) — DeepSeek Harness (cordis) plugin: self-update for the harness launcher - checks npm for a newer @deepseek-ai/dsh, stages it, and applies it on harness exit (or update-and-restart from the web panel).
 - [dsh-auto-update](https://github.com/frostming/dsh-auto-update) — Startup auto-updater for DeepSeek Harness (dsh): checks the npm registry once on boot and optionally installs newer versions.
 - [dsh-auto-update](https://github.com/louchi1984-coder/dsh-auto-update) — Automates plugin updates for DeepSeek Harness, keeping installations current.
@@ -2501,8 +2503,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-bench](https://github.com/kouyichi/dsh-plugins/tree/HEAD/dsh-bench) — A benchmarking tool to measure and compare performance of plugins or models.
 - [dsh-bench-runner](https://github.com/JunNanLYS/dsh-layered-memory/tree/HEAD/bench/harness/dsh-bench-runner) — Benchmark runner for the layered-memory plugin, testing its long-term memory recall and performance.
 - [dsh-benchmark](https://github.com/dongsheng123132/dsh-benchmark) — Deterministic revision-pinned benchmarks and regression evidence for DeepSeek Harness
-- [dsh-better-codex-subagent](https://github.com/ivwumupy/dsh-better-codex-subagent) — Improves the codex subagent experience in DeepSeek Harness, likely offering enhanced configuration or debugging for subagent workflows.
-- *GitHub only renders so much of one file, so 1384 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 1385 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
