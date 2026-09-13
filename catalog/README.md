@@ -8,7 +8,7 @@ The **DSH 1024Store** community catalog for [DeepSeek Harness](https://github.co
 
 **This project is more than an awesome list.** It also ships a hosted plugin marketplace, a plugin that puts that marketplace inside `dsh` itself, and a free public query API — that application code lives in the sibling repository [dsh-1024store](https://github.com/imsai-sh/dsh-1024store); this repository is the catalog itself: a statically validated PR submission pipeline and the generated directory READMEs, with an automated collection service feeding the data. Everything is MIT licensed, so you can fork it and run your own marketplace.
 
-[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=e2b27c09f15e)](https://deepseek1024.com/)
+[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=a8ccda98e02c)](https://deepseek1024.com/)
 
 [Live website](https://deepseek1024.com/) · [API reference](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [中文目录](../README.md) · [Submit a plugin](../CONTRIBUTING.md) · [Site & CLI source](https://github.com/imsai-sh/dsh-1024store)
 
@@ -45,12 +45,12 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [Themes & Appearance](#theme) (496)
 - [Sessions & Messages](#session) (860)
 - [Memory](#memory) (433)
-- [Tools & Capabilities](#tools) (3955)
+- [Tools & Capabilities](#tools) (3954)
 - [Skills](#skill) (1042)
-- [Workflow & Automation](#workflow) (769)
+- [Workflow & Automation](#workflow) (768)
 - [Notifications & Integrations](#notify) (496)
 - [Models & Providers](#model) (813)
-- [Development & Runtime](#dev) (1616)
+- [Development & Runtime](#dev) (1618)
 - [Just for Fun](#fun) (559)
 
 <a id="ui"></a>
@@ -1026,7 +1026,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="tools"></a>
 
 <details>
-<summary><strong>Tools &amp; Capabilities</strong> · showing 231 of 3955</summary>
+<summary><strong>Tools &amp; Capabilities</strong> · showing 231 of 3954</summary>
 
 - [@zhaoolee/dsh-notes](https://github.com/zhaoolee/notes) — Export DSH conversations as Smartisan Notes-style PNGs, or create and update Markdown notes in a configured account-scoped workspace.
 - [88API Image Studio](https://github.com/blackdm666/dsh-plugin-88api-image) — A conversational image studio for DSH with four Image2 and Nano Banana models, text-to-image, multi-reference editing, 2K/4K output, sequential batches, persistent defaults, and masked Key setup.
@@ -1259,7 +1259,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-ac-save](https://github.com/uckkk/dsh-ac-save) — Assists with air conditioning energy-saving strategies.
 - [dsh-ac-size](https://github.com/uckkk/dsh-ac-size) — Guides selection of air conditioner size based on area.
 - [dsh-ac-trouble](https://github.com/uckkk/dsh-ac-trouble) — Helps troubleshoot air conditioning faults.
-- *GitHub only renders so much of one file, so 3724 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 3723 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -1539,7 +1539,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="workflow"></a>
 
 <details>
-<summary><strong>Workflow &amp; Automation</strong> · showing 233 of 769</summary>
+<summary><strong>Workflow &amp; Automation</strong> · showing 233 of 768</summary>
 
 - [adaptive-update](https://github.com/niushuanan/dsh-adaptive-update/tree/HEAD/payload/adaptive-update/product/plugins/adaptive-update) — Checks upstream updates periodically, performs compatibility work via a scoped agent, and switches atomically with rollback.
 - [agent](https://github.com/orziz/odai/tree/HEAD/dsh/agent) — Governs AI agent tasks by aligning goals, planning, orchestrating, and verifying delivery while managing risks.
@@ -1774,7 +1774,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-cybernetics](https://github.com/boomzikazita/dsh-cybernetics) — DeepSeek Harness (dsh) Cordis plugin: observer/feedforward/feedback control loop, stability valve, controllability check
 - [dsh-dag](https://github.com/HEO-Club/DSH-DAG/tree/HEAD/packages/dsh-dag) — Implements a directed acyclic graph (DAG) structure for organizing and automating multi-step task pipelines within DeepSeek Harness.
 - [dsh-daily-digest](https://github.com/zhaoxuejie/dsh-daily-digest) — Automatically records daily tasks, sessions, and errors to generate Markdown daily and weekly reports with a floating summary card.
-- *GitHub only renders so much of one file, so 536 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 535 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
@@ -2271,7 +2271,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="dev"></a>
 
 <details>
-<summary><strong>Development &amp; Runtime</strong> · showing 230 of 1616</summary>
+<summary><strong>Development &amp; Runtime</strong> · showing 230 of 1618</summary>
 
 - [_template](https://github.com/messiahyl/dsh-plugins/tree/HEAD/packages/_template) — Provides a monorepo template for developing DSH plugins, with installation sources and third-party directory.
 - [_template](https://github.com/satan9394/dsh-skills-bundle/tree/HEAD/plugins/_template) — Provides a template for creating new dsh plugins.
@@ -2503,7 +2503,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-bench](https://github.com/kouyichi/dsh-plugins/tree/HEAD/dsh-bench) — A benchmarking tool to measure and compare performance of plugins or models.
 - [dsh-bench-runner](https://github.com/JunNanLYS/dsh-layered-memory/tree/HEAD/bench/harness/dsh-bench-runner) — Benchmark runner for the layered-memory plugin, testing its long-term memory recall and performance.
 - [dsh-benchmark](https://github.com/dongsheng123132/dsh-benchmark) — Deterministic revision-pinned benchmarks and regression evidence for DeepSeek Harness
-- *GitHub only renders so much of one file, so 1386 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 1388 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
