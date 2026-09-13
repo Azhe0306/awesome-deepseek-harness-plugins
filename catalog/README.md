@@ -791,7 +791,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="memory"></a>
 
 <details>
-<summary><strong>Memory</strong> · showing 224 of 433</summary>
+<summary><strong>Memory</strong> · showing 225 of 433</summary>
 
 - [adapter](https://github.com/DecarbonizedGlucose/dsh-memory-note/tree/HEAD/adapter) — Stores lightweight notes locally to retain information across sessions for the agent.
 - [agent-guard](https://github.com/hr98w/dsh-memory/tree/HEAD/benchmark/locomo/agent-guard) — Implements an agent guard that ensures consistent, context-efficient long-term memory across sessions, inspired by Claude Code's auto-memory design.
@@ -918,7 +918,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-layered-memory](https://github.com/JunNanLYS/dsh-layered-memory) — Layered long-term memory ported from TencentDB-Agent-Memory's MemoryCore pipeline: conversations are auto-distilled into L1 facts, L2 scene summaries and L3 persona, then recalled and injected before each step. Hybrid retrieval (SQLite FTS5 BM25 + sqlite-vec vectors with optional local embedding models), per-session capture modes (auto/chat/work/off), recall dedupe and recency decay, settings UI with memory browser, and rebuild from the L0 raw-event source.
 - [dsh-layered-memory](https://github.com/Olalaye/dsh-layered-memory) — Provides layered long-term memory with transient, episodic, and semantic layers, auto-capturing, AI summarization, cross-session recall, and visual management.
 - [dsh-learn](https://github.com/kouyichi/dsh-plugins/tree/HEAD/dsh-learn) — Facilitates learning and knowledge acquisition, possibly storing long-term educational data.
-- [dsh-library](https://github.com/PerryLink/dsh-library) — Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose 鈥?SQLite-backed index via the storage domain, local embedding, zero model downloads
+- [dsh-library](https://github.com/PerryLink/dsh-library) — Turns local markdown and text documents into a queryable knowledge base with hybrid semantic and keyword search, citation verification, and source injection.
 - [dsh-light-memory](https://github.com/chidaic/dsh-light-memory) — Lightweight memory plugin for DSH: four Markdown files (USER/PROJECT/WORKLOG/CONVENTION) plus append/distill actions, zero external parts, prefix-cache-friendly dual-layer injection.
 - [dsh-lite-memory](https://github.com/SiriusWJ/dsh-lite-memory) — Stores structured memories in SQLite with titles, importance, and sources, plus calendar reminders and bilingual UI.
 - [dsh-living-memory](https://github.com/dearbld/dsh-living-memory) — Living memory for DeepSeek Harness — self-tending knowledge base: nightly patrol, temporal decay, RRF hybrid recall, knowledge graph. Built by 暖暖 (NuanNuan).
@@ -1017,7 +1017,8 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-memory-spaces](https://github.com/icearia0219/dsh-memory-spaces) — Human-governed cross-session memory spaces for DeepSeek Harness with provenance, versioning, and injection preview.
 - [dsh-memory-system](https://github.com/zhujunpeng12/dsh-memory-system) — Local-first persistent memory infrastructure for DeepSeek Harness: hot bootstrap, Chinese-BM25 cold recall, lease-lock transactional writes, read-only governance
 - [dsh-memory-tdai](https://github.com/Jason-Liao/dsh-memory-tdai) — A memory plugin for DeepSeek Harness, likely for persistent cross-session knowledge.
-- *GitHub only renders so much of one file, so 209 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- [dsh-memory-triage](https://github.com/AtinyFurina/dsh-memory-triage) — Performs triage on long-term memories to organize, prioritize, or clean up stored knowledge.
+- *GitHub only renders so much of one file, so 208 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
