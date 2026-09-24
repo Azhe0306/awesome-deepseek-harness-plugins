@@ -2,13 +2,13 @@
 
 <!-- 本文件由 scripts/build-readme.mjs 从 deepseek1024.com 目录 API 自动生成，请勿手工编辑。 -->
 
-面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13723** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-09-24。
+面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13724** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-09-24。
 
 > 📦 **仓库拆分公告**：自 2026-08-25 起，deepseek1024.com 网站与 `dsh1024` CLI 的源码已拆分至独立仓库 [imsai-sh/dsh-1024store](https://github.com/imsai-sh/dsh-1024store)。本仓库从此专注插件目录（awesome 清单）与收录流程；网站与 CLI 相关的 issue / PR 请移步新仓库，插件收录照旧在这里提交。
 
 **但这个项目不只是一份 awesome list。** 它还包括一个在线插件市场、一个把市场装进 `dsh` 本体的插件，以及一套免费的公开查询 API——这些应用代码开源在姊妹仓库 [dsh-1024store](https://github.com/imsai-sh/dsh-1024store)；本仓库专注目录本身：经静态校验的 PR 收录流水线与自动生成的目录 README，目录数据另有自动收集服务持续喂入。全部代码 MIT 协议，fork 之后就能部署成你自己的插件市场。
 
-[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=8e17a60b42e3)](https://deepseek1024.com/)
+[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=1506ab58a31f)](https://deepseek1024.com/)
 
 [在线网站](https://deepseek1024.com/) · [API 文档](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md) · [网站与 CLI 源码](https://github.com/imsai-sh/dsh-1024store)
 
@@ -137,7 +137,7 @@ docs/               目录数据模型文档
 分组默认折叠，点开即可展开。GitHub 对单个文件的渲染长度有上限，条目较多的分类只列出其中一部分（分类标题会写明列出了多少），完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。
 
 - [UI 增强](#ui) (2625)
-- [主题与外观](#theme) (496)
+- [主题与外观](#theme) (497)
 - [会话与消息](#session) (862)
 - [记忆](#memory) (436)
 - [工具与能力](#tools) (3977)
@@ -396,7 +396,7 @@ docs/               目录数据模型文档
 <a id="theme"></a>
 
 <details>
-<summary><strong>主题与外观</strong> · 显示 253 / 共 496 个</summary>
+<summary><strong>主题与外观</strong> · 显示 253 / 共 497 个</summary>
 
 - [ambient-theme](https://github.com/intpfx/OpenFX/tree/HEAD/domains/dsh-openfx/packages/ambient-theme) — 应用环境主题，根据环境或时间改变视觉外观。
 - [anthropic-theme](https://github.com/KimFischer99/DeepSeek-Harness-Desktop/tree/HEAD/plugins/anthropic-theme) — 提供Anthropic风格视觉主题，美化桌面外壳外观。
@@ -528,6 +528,7 @@ docs/               目录数据模型文档
 - [dsh-duobaxian](https://github.com/jindaxia2026/dsh-duobaxian) — 多巴仙 — DeepSeek Harness Web UI 主题：八仙×多巴胺亮色，8 套仙家变体+界面切换器+明暗双模式。仙气多巴胺，界面好心情。
 - [dsh-dynamic-background](https://github.com/njuptlzf/dsh-dynamic-background) — DeepSeek Harness (DSH) 动态背景切换插件：上传 GIF/静态图与内置 12 色纯色调色板，定时丝滑交叉淡入淡出切换页面背景，聊天区自动叠加主题色保护层。安装：dsh plugin add github:njuptlzf/dsh-dynamic-background
 - [dsh-dynamic-wallpaper](https://github.com/Willmylife/dsh-dynamic-wallpaper) — 提供多种动态壁纸，支持自定义导入及透明度、模糊、速度调节。
+- [dsh-echocat-prettier](https://github.com/VDERR/dsh-echocat-prettier) — 为 DSH AI 回复提供视觉主题、排版预设、独立配色、emoji、可选的主题表情包与长回复性能保护。
 - [dsh-elon-skin](https://github.com/kingOfSoySauce/dsh-elon-skin) — 为客户端应用马斯克主题皮肤，改变外观配色和风格。
 - [dsh-emerald-megacity](https://github.com/keman-ai/dsh-skin-pack/tree/HEAD/packages/dsh-emerald-megacity) — DeepSeek Harness的翡翠都市主题皮肤。
 - [dsh-eva-theme-plugin](https://github.com/oceanxuikun/dsh-eva-theme-plugin) — 新世纪福音战士主题，包含 00、01、02 号机风格，带沉浸式背景和机甲界面效果。
@@ -650,8 +651,7 @@ docs/               目录数据模型文档
 - [dsh-skin-argentina](https://github.com/henrychenhao/dsh-skin-argentina) — 梅西 阿根廷皮肤
 - [dsh-skin-background](https://github.com/megatronyy/dsh-skin-background) — 应用自定义图片背景，支持调暗和模糊控制，含内置和用户壁纸。
 - [dsh-skin-blue-whale](https://github.com/zenghuizhu69-hub/dsh-skin-blue-whale) — 为 Web UI 应用蓝鲸主题，包含官方渐变色与跃鲸图案。
-- [dsh-skin-center](https://github.com/bruce-hmz/dsh-skin-center) — 提供皮肤中心，切换界面视觉主题与外观。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 243 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 244 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
