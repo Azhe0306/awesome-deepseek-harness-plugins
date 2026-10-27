@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "Azhe0306/dsh-howtolivebetter",
+  "name": "dsh-howtolivebetter",
+  "repository": "https://github.com/Azhe0306/dsh-howtolivebetter",
+  "category": "ui",
+  "description": {
+    "en": "Adds a sidebar panel that renders the HowToLiveBetter guide offline: 34 chapters and 767 suggestions, each with its cost, payoff and evidence grade. Browse by chapter, full-text search, filter by evidence grade, payoff size, cost-effectiveness, payoff type and audience, and follow the cross-references between entries. Read-only, with no network requests and no third-party dependencies.",
+    "zh": "在侧栏加一个「人生指南」面板，离线呈现《高性价比人生指南》——34 节 767 条建议，每条带成本、收益与证据等级。可按节翻阅、全文检索，按证据等级、收益量级、性价比、口径与人群筛选，并支持条目间互相跳转。只读、不联网、无第三方依赖。"
+  },
+  "added": "2026-10-27"
+}
